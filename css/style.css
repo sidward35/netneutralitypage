@@ -1,0 +1,96 @@
+html,body{
+  background-color: #171717;
+  color: #BBBBBB;
+  font-family: 'Roboto', sans-serif;
+}
+
+.title{
+  color: #FFE400;
+  font-size: 4.5em;
+  font-weight: 500;
+  position: fixed;
+  top: 15%;
+  left: 0;
+  width: 100%;
+}
+
+.main{
+  font-size: 1.5em;
+  position: fixed;
+  top: 40%;
+  left: 25%;
+  width: 50%;
+}
+
+.top{
+  color: #FF0000;
+  position: fixed;
+  top: 10px;
+  left: 0;
+  right: 0;
+  width: 100%;
+  font-size: 1.3em;
+}
+
+.bottom1{
+  position: fixed;
+  bottom: 28%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  font-size: 1.3em;
+}
+
+.bottom2{
+  position: fixed;
+  bottom: 21%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  font-size: 1.3em;
+}
+
+.bottom3{
+  position: fixed;
+  bottom: 14%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  font-size: 1.3em;
+}
+
+.download{
+  position: fixed;
+  bottom: 5%;
+  left: 0;
+  right: 0;
+  width: 100%;
+  font-size: 1.0em;
+}
+
+div{
+  text-align: center;
+}
+
+del{
+  color: #656565;
+}
+
+@media screen and (max-width: 1050px) {
+  .main{
+    width: 90%;
+    left: 5%;
+  }
+}
+
+@media screen and (max-width: 590px) {
+  .title{
+    top: 20%;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .title{
+    top: 10%;
+  }
+}
